@@ -32,4 +32,4 @@ jobs:
       - name: install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./build http://brown-chance.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
+        run: surge ./build http://wiry-riddle.surge.sh/ --token ${{secrets.SURGE_TOKEN}} 
